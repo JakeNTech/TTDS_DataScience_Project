@@ -1,3 +1,4 @@
-# Fancy_Graphs_Python
-Python files for TTDS. Some of the code was just messing around to see what could be done.\
-The files in folder 1 are intended to be run on the server an the host to mimic a file upload server, the senario we are going for is that this is a companies backup server, where a user uploads files to the server for safe keeping. In that directory is also a script designed to run on another host to upload files to this server, so I don't have to do it :) Generating traffic for netflow.
+# Tools and Technologies of Data Science Level 5
+This repo contains the code and data that I am using for the tools and technologies of data science project.\
+As my intent is to collect my own data with this project I have set up a Raspberry Pi with SiLK, connected my laptop to a *"Throwing Star LAN Tap Pro"* and SiLK is sat their recording the flow data for me, to later be converted to a CSV file to allow me to do some of the machine learning stuff. I could have tcpdump collecting the packets and then generate the flow data from that but this seemed more fun...not like I've got anything better to be doing. Once I am done with this project I might put a blog post up on my site about it...I definitely need to have a bit more fun with this TAP too! 😃\
+The data directory also contains the scripts that are needed to install SiLK (The commands are copied from the install guide on their site...I did it to make it faster!) and the commands needed to start collection after a reboot...handy when your Pi is also your HTPC.
