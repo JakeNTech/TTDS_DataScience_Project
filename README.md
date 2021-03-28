@@ -1,0 +1,3 @@
+# Fancy_Graphs_Python
+Python files for TTDS. Some of the code was just messing around to see what could be done.\
+The files in folder 1 are intended to be run on the server an the host to mimic a file upload server, the senario we are going for is that this is a companies backup server, where a user uploads files to the server for safe keeping. In that directory is also a script designed to run on another host to upload files to this server, so I don't have to do it :) Generating traffic for netflow.
